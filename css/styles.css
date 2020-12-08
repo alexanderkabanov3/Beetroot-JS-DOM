@@ -1,0 +1,77 @@
+
+#result1 div:nth-child(2n) {
+    margin: 0px 0px 16px 16px;
+} 
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal p {
+    max-width: 300px;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30vh;
+}
+
+#butt12 {
+    margin-left: 55vw;
+    position: relative;
+    top: -30px;
+}
+
+.trafficLight {
+    width: 200px;
+    height: 400px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.circle:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+#butt2 {
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    padding-bottom: 1000px;
+}
+
+.circle--red {
+    background-color: red;
+}
+
+.circle--orange {
+    background-color: orange;
+}
+
+.circle--green {
+    background-color: green;
+}
+
